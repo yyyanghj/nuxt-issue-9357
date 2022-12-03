@@ -1,6 +1,11 @@
 <template>
   <div>
-    Hello World
+    <h1>
+      Hello World
+    </h1>
+    <NuxtPage>
+      <ContentDoc />
+    </NuxtPage>
   </div>
 </template>
 
@@ -12,8 +17,12 @@
 <style>
 @import "@fontsource/lora";
 
-body {
+h1 {
   font-family: "Lora";
   font-size: 100px;
+}
+
+.line {
+  display: block;
 }
 </style>
